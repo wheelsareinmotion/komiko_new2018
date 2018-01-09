@@ -1,0 +1,335 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@import '../css/themify-icons.css';
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.teal-blue {
+  background: #4CB8C4;
+}
+.no-pad-bot {
+  background: #4CB8C4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #3CD3AD, #4CB8C4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #3CD3AD, #4CB8C4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*
+.teal-blue {
+	background: #66a6ff;
+}
+.no-pad-bot {
+	background: #66a6ff;
+    background: -webkit-linear-gradient(to top, #70fee3, #66a6ff);
+    background: linear-gradient(to top, #70fee3, #66a6ff);
+}
+*/
+.teal-gradient {
+  background: #4CB8C4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #3CD3AD, #4CB8C4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #3CD3AD, #4CB8C4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.teal-blue-gradient {
+	background: #66a6ff;
+    background: -webkit-linear-gradient(to top, #70fee3, #66a6ff);
+    background: linear-gradient(to top, #70fee3, #66a6ff);
+}
+.teal-to-white {
+	background: #fff;
+    background: -webkit-linear-gradient(to top, #fff, #37474f);
+    background: linear-gradient(to top, #fff, #37474f);
+}
+.teal-light {
+	color: #50c9c3;
+}
+.peach-gradient {
+    background: #FF8008;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.aqua-gradient {
+    background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3);
+    background: linear-gradient(40deg,#2096ff,#05ffa3);
+}
+.blue-gradient {
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.purple-gradient {
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bg-offwhite {
+    background-color: #f5f7f9;
+}
+
+.grey-gradient {
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+  background: linear-gradient(to top, #fff, #cfd8dc);
+}
+.orange-peach {
+  background-color: #f57c45 !important;
+}
+svg {
+	display: block;
+}
+canvas {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top:0;
+  right:0;
+  overflow: hidden;
+}
+.bubble-border {
+  border-radius: 24px 24px 24px 0px;
+}
+.sing-up-button > a {
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    border: 2px solid #fff;
+    height: 40px;
+    min-width: 160px;
+    line-height: 37px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 24px 24px 24px 0px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+.sing-up-button > a:hover {
+  background: #fff;
+  color: #f57c45;
+}
+nav ul a {
+  color: #37474f;
+  text-transform: uppercase;
+}
+.dropdown-content {
+  top: inherit !important;
+  min-width: 200px;
+}
+.middle-indicator{
+   position:absolute;
+   top:50%;
+   }
+  .middle-indicator-text{
+   font-size: 4.2rem;
+  }
+  a.middle-indicator-text{
+    color:grey !important;
+  }
+.carousel.carousel-slider {
+	height: 600px !important;
+}
+.carousel.carousel-slider .indicators .indicator-item.active {
+    background-color: #9e9e9e;
+}
+.carousel.carousel-slider .indicators .indicator-item {
+	background-color: rgba(149, 149, 149, 0.5);
+}
+.slider .slides li .img-wl {
+  max-width: 90px;
+  max-height: 60px;
+}
+.slider .slides li .img-wwl {
+  max-width: 140px;
+  max-height: 70px;
+}
+.slider .slides li .img-wll {
+  max-width: 160px;
+  max-height: 30px;
+}
+.slider .slides li .img-sq {
+  max-width: 60px;
+}
+.slider .slides li .img-rec {
+  max-width: 130px;
+  max-height: 30px;
+}
+.slider .slides li .img-rec-ms {
+  max-width: 120px;
+  max-height: 30px;
+}
+.slider .slides li .img-rec-m {
+  max-width: 140px;
+  max-height: 30px;
+}
+.slider .slides li .img-rec-s {
+    max-width: 70px;
+    max-height: 30px;
+}
+#logos-slider {
+  height: 200px !important;
+}
+#logos-slider .indicators .indicator-item {
+  display: none !important;
+}
+/*SPRITES*/
+.sprite {
+    background: url("../img/sprites.png") no-repeat center center;
+    margin: 0 auto;
+}
+
+.pemco{
+background-position: 0 -87px;
+display: block;
+width: 80px;
+height: 84px;
+}
+/*END SPRITES*/
+.img-container {
+  position: relative;
+  width: 100%;
+}
+
+.img-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+    border: 1px solid #fff;
+}
+.img-container i {
+  font-size: 3.2rem;
+  margin-top: -7px;
+}
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(76,184,196, 0.7);
+}
+
+.img-container:hover .img-overlay {
+  opacity: 1;
+}
+.img-container:hover h5 {
+  display: none;
+}
+.img-overlay .text {
+  color: white;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  z-index: 3;
+}
+.img-overlay i {
+  font-size: 1.3rem;
+  margin-top: 3px;
+}
+.testimonial-tint {
+    background-color: #000;
+    height: 100%;
+    left: 0;
+    opacity: .2;
+    position: absolute;
+    top: 0;
+    transition-property: background-color,opacity;
+    width: 100%;
+    z-index: 1;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+.testimonial-tint {
+    transition: .3s cubic-bezier(.165,.84,.44,1);
+}
+.section-heading {
+	margin-bottom: 30px; 
+}
+.section-heading > h2 {
+    color: #4CB8C4;
+    font-size: 36px;
+    margin: 0;
+}
+.line-shape {
+    margin-left: calc(50% - 40px);
+}
+.line-shape {
+    width: 80px;
+    height: 2px;
+    background-color: #45f5d4;
+    margin-top: 15px;
+}
+.single-special {
+    border: 1px solid #eff2f6;
+    padding: 40px;
+    border-radius: 40px 40px 40px 0px;
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+    margin: 30px 5px;
+}
+.single-special:hover {
+    -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+}
+.single-icon {
+    margin-bottom: 25px;
+}
+.single-icon > i {
+    font-size: 36px;
+    color: #45f5d4;
+}
+.single-special > h4 {
+    font-size: 22px;
+    color: #4CB8C4;
+    margin-bottom: 15px;
+}
+.single-special p {
+    color: #726a84;
+    font-size: 16px;
+    font-weight: 300;
+}
+.special-image-content > h2 {
+    color: #039be5;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.special-image-content > p {
+    color: #726a84;
+    font-size: 16px;
+    font-weight: 300;
+}
+.single-feature {
+    margin-bottom: 50px;
+}
+.single-feature > i {
+    color: #f57c45;
+    font-size: 30px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+.single-feature > h5 {
+    font-size: 22px;
+    color: #4CB8C4;
+}
+.single-feature > p {
+    color: #726a84;
+    font-size: 16px;
+    font-weight: 300;
+}

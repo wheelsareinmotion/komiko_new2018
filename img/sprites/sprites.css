@@ -1,0 +1,76 @@
+.Colliers_logo, .pemco, .appfolio_logo, .compuware, .mfiles, .ClearlySo, .talkable_transp, .folloze, .Allocadia, .far-east-hospitality-logo, .Ns1, .redox-engine{
+	background: url(sprites.png) no-repeat;
+}
+
+.Colliers_logo{
+	background-position: 0 -1px ;
+	width: 125px;
+	height: 84px;
+}
+
+.pemco{
+	background-position: 0 -87px ;
+	width: 80px;
+	height: 84px;
+}
+
+.appfolio_logo{
+	background-position: 0 -173.00001525878906px ;
+	width: 200px;
+	height: 54px;
+}
+
+.compuware{
+	background-position: -2px -235px ;
+	width: 193px;
+	height: 95px;
+}
+
+.mfiles{
+	background-position: -2px -341px ;
+	width: 200px;
+	height: 53px;
+}
+
+.ClearlySo{
+	background-position: 0 -409px ;
+	width: 174px;
+	height: 44px;
+}
+
+.talkable_transp{
+	background-position: -136px 0;
+	width: 300px;
+	height: 64px;
+}
+
+.folloze{
+	background-position: -137px -80px ;
+	width: 300px;
+	height: 73px;
+}
+
+.Allocadia{
+	background-position: -202px -153px ;
+	width: 400px;
+	height: 88px;
+}
+
+.far-east-hospitality-logo{
+	background-position: -202px -251.00001525878906px ;
+	width: 200px;
+	height: 43px;
+}
+
+.Ns1{
+	background-position: -206px -303.00001525878906px ;
+	width: 200px;
+	height: 96px;
+}
+
+.redox-engine{
+	background-position: -181px -400px ;
+	width: 300px;
+	height: 66px;
+}
+
