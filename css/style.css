@@ -339,6 +339,7 @@ height: 84px;
 .tabs{
 height: auto;
 white-space: normal;
+background-color: transparent;
 }
 .tab{
 display: block;
@@ -354,11 +355,20 @@ border:1px solid #f0f0f0;
 .indicator{
 display: none;
 }
-.tabs .tab a:hover, .tabs .tab a.active {
-    color: #37474f;
+.tabs .tab a.active span {
+    color: #455a64;
+    font-size: 18px;
+    padding-left: 28px;
 }
-.tabs .tab a {
+.tabs .tab a:hover span {
+    color: #455a64;
+}
+.tabs .tab a span {
     color: rgba(55, 71, 79, 0.6);
+    margin-left: 20px;
+    position: absolute;
+    padding-left: 20px;
+    transition: color, font-size 0.5s ease;
 }
 .animated {
     -webkit-animation-duration: 0.5s;
@@ -389,4 +399,43 @@ display: none;
       -o-animation-name:fadeInRight;
       animation-name:fadeInRight
     }
+  .tabs .tab {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 1em;
+  background: #b0bec5;
+  display: block;
+  margin: 3em 0;
+  position: relative;
+  transition: background 0.5s ease;
+}
+
+.tabs .tab::before{
+  z-index: 3;
+  position: absolute;
+  content: ' ';
+  display: block;
+  border-left: 2px dashed #deebee;
+  height: 100%;
+  margin-left: 14px;
+  margin-top: -2.5rem;
+}
+
+
+.tabs .tab:first-child::before {
+  display: none;
+}
+
+.tabs .tab a.active {
+    background: #45f5d4;
+    padding: 0;
+    width: 2.2em;
+    height: 2.2em;
+    text-align: center;
+    line-height: 2.2em;
+    border-radius: 1.2em;
+    transition: background 0.5s ease;
+}
 /*end of vertical tabs*/
